@@ -12,7 +12,7 @@ namespace Workaround // Note: actual namespace depends on the project name.
             person1.FirstName = "Ahmet";
             person1.LastName = "Bulgurcu";
             person1.DateOfBirthYear = 2000;
-            person1.NationalIdentity = 52861286222;
+            person1.NationalIdentity = 31313131313;
 
             PttManager pttManager = new PttManager(new PersonManager());
             pttManager.GiveMask(person1);
